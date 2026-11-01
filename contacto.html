@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC INSIDE - Contacto</title>
+</head>
+<body>
+    <header>
+        <h1>Contacto</h1>
+        <p>Si tienes alguna pregunta o sugerencia, no dudes en contactarnos.</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="componentes.html">Componentes</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Envíanos tu consulta.</h2>
+            <p>Completa el siguiente formulario para solicitar informacion.</p>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <label for="tema">¿Sobre qué componente necesitas información?</label>
+                <select id="tema" name="tema" required>
+                    <option value="">Selecciona un componente</option>
+                    <option value="cpu">Procesador (CPU)</option>
+                    <option value="ram">Memoria RAM</option>
+                    <option value="motherboard">Placa base (Motherboard)</option>
+                    <option value="hdd">Disco duro (HDD)</option>
+                    <option value="ssd">Unidad de estado sólido (SSD)</option>
+                    <option value="gpu">Tarjeta gráfica (GPU)</option>
+                </select>
+
+                <p>
+                    <input type="checkbox" id="aceptación" name="suscripcion" required>
+                    <label for="aceptación">Acepto las condiciones del formulario de prueba.</label
+                    </p>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+    <p>PC INSIDE - Proyecto educativo HTML5</p>
+    </footer>
+</body>
+</html>
