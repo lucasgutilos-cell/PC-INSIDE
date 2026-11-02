@@ -1,1 +1,63 @@
-#CSS EJEMPLO
+
+/* ESTILOS GENERALES */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0b1220;
+    color: #e6edf6;
+    line-height: 1.6;
+}
+
+/* CABECERA */
+
+header {
+    background-color: #14243d;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    color: #67e8f9;
+    margin: 0;
+}
+
+header p {
+    color: #cbd5e1;
+}
+
+/* MENU DE NAVEGACION */
+
+nav {
+    background-color: #1c3150;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #67e8f9;
+}
+
+/* CONTENIDO PRINCIPAL */
+
+main {
+    max-width: 1050px;
+    margin: 35px auto;
+    padding: 0 20px;
+}
+
+/* PIE DE PAGINA */
+
+footer {
+    background-color: #14243d;
+    color: #cbd5e1;
+    text-align: center;
+    padding: 20px;
+}
