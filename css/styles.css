@@ -170,3 +170,48 @@ tr:nth-child(even) {
     border-color: #67e8f9;
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.25);
 }
+
+/* DESPLEGABLE HDD Y SSD */
+
+#comparativa-almacenamiento details {
+    background-color: #14243d;
+    border: 1px solid #294766;
+    border-radius: 12px;
+    padding: 18px 22px;
+    margin-top: 20px;
+}
+
+#comparativa-almacenamiento summary {
+    color: #67e8f9;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#comparativa-almacenamiento details[open] {
+    border-color: #67e8f9;
+}
+
+#comparativa-almacenamiento details p {
+    color: #e6edf6;
+    margin-bottom: 10px;
+}
+
+
+/* CONSEJO DE PC INSIDE */
+
+#cpu-vs-gpu aside {
+    background-color: #14243d;
+    border-left: 4px solid #67e8f9;
+    border-radius: 10px;
+    padding: 20px 25px;
+    margin-top: 30px;
+}
+
+#cpu-vs-gpu aside h3 {
+    color: #67e8f9;
+    margin-top: 0;
+}
+
+#cpu-vs-gpu aside p {
+    color: #e6edf6;
+}
