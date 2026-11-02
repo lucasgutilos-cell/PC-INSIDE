@@ -90,3 +90,34 @@ footer {
     color: #67e8f9;
     margin-top: 0;
 }
+
+/* TABLAS DE COMPONENTES */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    background-color: #14243d;
+    border: 1px solid #294766;
+}
+
+caption {
+    color: #67e8f9;
+    font-weight: bold;
+    padding: 12px;
+}
+
+th, td {
+    padding: 14px;
+    border: 1px solid #294766;
+    text-align: left;
+}
+
+th {
+    background-color: #1c3150;
+    color: #67e8f9;
+}
+
+tr:nth-child(even) {
+    background-color: #192c47;
+}
