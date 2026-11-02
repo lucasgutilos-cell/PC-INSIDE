@@ -215,3 +215,75 @@ tr:nth-child(even) {
 #cpu-vs-gpu aside p {
     color: #e6edf6;
 }
+
+/* FORMULARIO DE CONTACTO */
+
+form {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #14243d;
+    border: 1px solid #294766;
+    border-radius: 14px;
+}
+
+form > label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #67e8f9;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea,
+form select {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    margin-bottom: 22px;
+    background-color: #0b1220;
+    color: white;
+    border: 1px solid #294766;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+/* CAMPO SELECCIONADO */
+
+form input:focus,
+form textarea:focus,
+form select:focus {
+    outline: 2px solid #67e8f9;
+    outline-offset: 2px;
+}
+
+/* CASILLA DE ACEPTACION */
+
+form p {
+    margin: 20px 0;
+}
+
+form input[type="checkbox"] {
+    accent-color: #67e8f9;
+}
+
+/* BOTON DE ENVIO */
+
+form button {
+    background-color: #67e8f9;
+    color: #0b1220;
+    padding: 13px 25px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+}
+
+form button:hover {
+    background-color: #22d3ee;
+}
